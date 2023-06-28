@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background: linear-gradient(180deg, orange, red);
+}
+.container{
+    width: 700px;
+    height: 200px;
+   
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    border-radius: 50px;
+
+
+
+}
+.box{
+    
+    width: 700px;
+    height: 90px;
+    display: flex;
+    align-self: center;
+   padding-top: 220px;
+    
+
+}
+.insider{
+    
+    width: 45px;
+    height: 40px;
+    display: flex;
+  
+    
+    justify-self: end;
+    animation-name: animacao;
+    animation-duration: 1s;
+    
+
+}
+@keyframes animacao{
+    0%{ margin-left: 0%;}
+    100%{ margin-left: 100%;}
+}
+
+@keyframes boneco{
+    0%{ transform: 0deg;}
+    100%{ transform: rotate(90deg); margin-top: 80px;}
+
+}
+.boneco{
+    height: 200px;
+    display: flex;
+    width: 100px;
+    margin-left: 720px;
+     animation-name: boneco;
+     animation-duration: 1s;
+     animation-delay: 0.2s;
+    
+}
+.big{
+    background-color: red;
+    width: 860px;
+    background-image: url(fundo-sem-emenda-da-paisagem-com-deserto-e-cacto-84767105.webp);
+    height: 460px;
+    margin: auto;
+}
+footer{
+    height: 520px;
+   
+}
+
+.botao{
+    margin-top: 30px;
+    height: 40px;
+    width: 150px;
+    background-color: #ccc;
+    font-weight: bold;
+    margin-left: 43%;
+    color: red;
+    text-shadow: 1px 1px 3px black;
+    font-size: 30px;
+}
